@@ -1,3 +1,7 @@
+.container {
+    display: flex;
+}
+
 .grid {
     border: 2px solid black;
 }
