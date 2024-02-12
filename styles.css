@@ -7,6 +7,8 @@
     flex-wrap: wrap;
 }
 
-.container>div:nth-child(16n+1)  {
-  width: 100% !important;
+.container>div {
+  flex: 1 1 6.25%;
+  border: 1px solid black;
+  height: 25px;
 }
