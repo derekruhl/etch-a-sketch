@@ -20,8 +20,7 @@ function gridSize() {
     window.prompt('Select the size of the grid', 16);
 }
 
-gridSize();
-
 for (let i = 1; i < gridSize(); i++) {
     const div = document.createElement('div');
-    cdiv.appendChild(div); 
+    cdiv.appendChild(div);
+}
